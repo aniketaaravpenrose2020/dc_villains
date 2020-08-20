@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+:root {
+    --background-prop: no-repeat center center/cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+.main_page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://3.bp.blogspot.com/-YEb2fNfdlq4/Tko4cuiDsJI/AAAAAAAAABw/o6q07ItU7YY/s1600/DC-COMIC-SUPER-VILLAIN.jpg") var(--background-prop);
+}
+
+.main_page h1 {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    letter-spacing: 5px;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Ranchers', cursive;
+    font-size: 50px;
+}
+
+.main_page h1 span {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.dc-cards {
+    background: url('http://s3-us-west-1.amazonaws.com/dkn-wp/wp-content/uploads/2017/07/22195056/dcentertainmentlogo.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30% !important;
+    margin: 2%;
+}
+
+.coldbox {
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 5px solid blue; */
+    border-radius: 10px;
+    /* padding-top: 300px;
+        padding-left: 10px; */
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    margin-right: 0.5%;
+    background: linear-gradient(126deg, rgba(0, 245, 255, 1) 0%, rgba(35, 33, 176, 1) 100%);
+    color: white;
+}
+
+.venombox {
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10px;
+    /* border: 5px solid green; */
+    width: 25%;
+    height: 50%;
+    background: linear-gradient(126deg, rgba(22, 255, 0, 1) 0%, rgba(12, 71, 1, 1) 100%);
+    margin-right: 0.5%;
+    color: white;
+}
+
+.brainbox {
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 5px solid palevioletred; */
+    background: rgb(252, 0, 255);
+    background: linear-gradient(126deg, rgba(252, 0, 255, 1) 0%, rgba(110, 14, 152, 1) 64%, rgba(46, 21, 106, 1) 100%);
+    width: 25%;
+    height: 50%;
+    color: white;
+    margin-right: 0.5%;
+    border-radius: 10px;
+}
+
+.joker {
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 5px solid palevioletred; */
+    width: 25%;
+    height: 50%;
+    color: white;
+    margin-right: 0.5%;
+    background: rgb(236, 236, 236);
+    background: linear-gradient(126deg, rgba(236, 236, 236, 1) 5%, rgba(131, 42, 131, 1) 31%, rgba(56, 1, 57, 1) 100%);
+    border-radius: 10px;
+}
+
+.lex {
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 5px solid palevioletred; */
+    background: rgb(2, 128, 10);
+    background: linear-gradient(126deg, rgba(2, 128, 10, 1) 0%, rgba(48, 0, 111, 1) 100%);
+    width: 25%;
+    height: 50%;
+    color: white;
+    margin-right: 0.5%;
+    border-radius: 10px;
+}
+
+.sinestro {
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 5px solid palevioletred; */
+    width: 25%;
+    height: 50%;
+    color: white;
+    margin-right: 0.5%;
+    background: rgb(224, 255, 0);
+    background: linear-gradient(126deg, rgba(224, 255, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 10px;
+}
+
+.coldbox img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.venombox img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.joker {
+    border-color: purple;
+}
+
+.brainbox img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.joker img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lex img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sinestro img {
+    width: 100%;
+    height: 30em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.coldbox-desc {
+    padding: 4%;
+}
+
+.venombox-desc {
+    padding: 4%;
+}
+
+.brainbox-desc {
+    padding: 4%;
+}
+
+.joker-desc {
+    padding: 4%;
+}
+
+.lex-desc {
+    padding: 4%;
+}
+
+.sinestro-desc {
+    padding: 4%;
+}
+
+.coldbox-desc h1 {
+    text-align: center;
+}
+
+.venombox-desc h1 {
+    text-align: center;
+}
+
+.brainbox-desc h1 {
+    text-align: center;
+}
+
+.joker-desc h1 {
+    text-align: center;
+}
+
+.lex-desc h1 {
+    text-align: center;
+}
+
+.sinestro-desc h1 {
+    text-align: center;
+}
+
+.dc-forms {
+    margin: 0;
+    background: url('https://seeklogo.net/wp-content/uploads/2016/05/dc-comics-logo-vector-download.jpg') no-repeat fixed center right;
+}
+
+.dc-forms form input,
+.dc-forms label,
+.dc-forms p,
+.dc-forms select,
+.dc-forms h1 {
+    font-family: 'Piedra', cursive;
+    color: rgb(1, 114, 228);
+}
+
+.dc-forms form input[type='submit'] {
+    padding: 15px;
+    background-color: lawngreen;
+    color: white;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dc-forms form input[type='text'] {
+    padding-left: 3px;
+    border-color: rgb(3, 120, 236);
+}
+
+.dc-forms ::placeholder {
+    color: rgb(3, 120, 236);
+    opacity: 0.6;
+}
+
+.dc-forms label {
+    font-size: 20px;
+}
+
+.dc-forms p {
+    font-size: 20px;
+}
+
+.dc-forms {
+    padding-left: 150px;
+    border-style: solid;
+    border-color: rgb(3, 120, 236);
+    border-width: 50px;
+}
+
+.dc-forms h1 {
+    padding-right: 88px;
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card,
+    .card2 {
+        width: 95%;
+    }
+}

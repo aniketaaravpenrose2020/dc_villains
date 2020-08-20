@@ -1,0 +1,279 @@
+<<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DC Villain Card-Page 2</title>
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+        body {
+            background: url('http://s3-us-west-1.amazonaws.com/dkn-wp/wp-content/uploads/2017/07/22195056/dcentertainmentlogo.jpg') no-repeat fixed center;
+            background-size: cover;
+        }
+        
+        .cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            width: 30% !important;
+            margin: 2%;
+        }
+        
+        .coldbox {
+            font-family: 'Josefin Sans', sans-serif;
+            /* border: 5px solid blue; */
+            border-radius: 10px;
+            /* padding-top: 300px;
+        padding-left: 10px; */
+            width: 25%;
+            height: 50%;
+            background-color: white;
+            margin-right: 0.5%;
+            background: linear-gradient(126deg, rgba(0, 245, 255, 1) 0%, rgba(35, 33, 176, 1) 100%);
+            color: white;
+        }
+        
+        .venombox {
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius: 10px;
+            /* border: 5px solid green; */
+            width: 25%;
+            height: 50%;
+            background: linear-gradient(126deg, rgba(22, 255, 0, 1) 0%, rgba(12, 71, 1, 1) 100%);
+            margin-right: 0.5%;
+            color: white;
+        }
+        
+        .brainbox {
+            font-family: 'Josefin Sans', sans-serif;
+            /* border: 5px solid palevioletred; */
+            background: rgb(252, 0, 255);
+            background: linear-gradient(126deg, rgba(252, 0, 255, 1) 0%, rgba(110, 14, 152, 1) 64%, rgba(46, 21, 106, 1) 100%);
+            width: 25%;
+            height: 50%;
+            color: white;
+            margin-right: 0.5%;
+            border-radius: 10px;
+        }
+        
+        .joker {
+            font-family: 'Josefin Sans', sans-serif;
+            /* border: 5px solid palevioletred; */
+            width: 25%;
+            height: 50%;
+            color: white;
+            margin-right: 0.5%;
+            background: rgb(236, 236, 236);
+            background: linear-gradient(126deg, rgba(236, 236, 236, 1) 5%, rgba(131, 42, 131, 1) 31%, rgba(56, 1, 57, 1) 100%);
+            border-radius: 10px;
+        }
+        
+        .lex {
+            font-family: 'Josefin Sans', sans-serif;
+            /* border: 5px solid palevioletred; */
+            background: rgb(2, 128, 10);
+            background: linear-gradient(126deg, rgba(2, 128, 10, 1) 0%, rgba(48, 0, 111, 1) 100%);
+            width: 25%;
+            height: 50%;
+            color: white;
+            margin-right: 0.5%;
+            border-radius: 10px;
+        }
+        
+        .sinestro {
+            font-family: 'Josefin Sans', sans-serif;
+            /* border: 5px solid palevioletred; */
+            width: 25%;
+            height: 50%;
+            color: white;
+            margin-right: 0.5%;
+            background: rgb(224, 255, 0);
+            background: linear-gradient(126deg, rgba(224, 255, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+            border-radius: 10px;
+        }
+        
+        .coldbox img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .venombox img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .joker {
+            border-color: purple;
+        }
+        
+        .brainbox img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .joker img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .lex img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .sinestro img {
+            width: 100%;
+            height: 30em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .coldbox-desc {
+            padding: 4%;
+        }
+        
+        .venombox-desc {
+            padding: 4%;
+        }
+        
+        .brainbox-desc {
+            padding: 4%;
+        }
+        
+        .joker-desc {
+            padding: 4%;
+        }
+        
+        .lex-desc {
+            padding: 4%;
+        }
+        
+        .sinestro-desc {
+            padding: 4%;
+        }
+        
+        .coldbox-desc h1 {
+            text-align: center;
+        }
+        
+        .venombox-desc h1 {
+            text-align: center;
+        }
+        
+        .brainbox-desc h1 {
+            text-align: center;
+        }
+        
+        .joker-desc h1 {
+            text-align: center;
+        }
+        
+        .lex-desc h1 {
+            text-align: center;
+        }
+        
+        .sinestro-desc h1 {
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <div class="cards">
+            <div class="card coldbox">
+                <img src="http://dccontinuityproject.weebly.com/uploads/5/4/5/1/54516433/450720458_orig.jpg">
+                <div class="coldbox-desc">
+                    <h1>Captain Cold</h1>
+                    <hr>
+                    <p>Name:Captain Cold(Leonard Snart)</p>
+                    <p>Occupation:Bounty Hunter</p>
+                    <p>Fear:---</p>
+                    <p>Enemy:The Flash</p>
+                    <p>Allies:Rogues</p>
+                </div>
+            </div>
+            <div class="card venombox">
+                <img src="https://vignette.wikia.nocookie.net/injusticegodsamongus/images/c/c7/Injustice2Bane.jpg/revision/latest?cb=20180606212351">
+                <div class="venombox-desc">
+                    <h1>Bane</h1>
+                    <hr>
+                    <p>Name:Bane</p>
+                    <p>Occupation:Crime Lord</p>
+                    <p>Fear:Bats</p>
+                    <p>Enemy:Batman</p>
+                    <p>Allies:Bird(New Earth)</p>
+                </div>
+            </div>
+            <div class="card brainbox">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Brainiac_%28DC_Comics%29.png">
+                <div class="brainbox-desc">
+                    <h1>Brainiac</h1>
+                    <hr>
+                    <p>Name: ---</p>
+                    <p>Occupation: comedian</p>
+                    <p>Fear: ---</p>
+                    <p>Enemy: Batman</p>
+                    <p>Allies: Harley quin</p>
+                </div>
+            </div>
+
+            <div class="card joker">
+                <img src="https://i.pinimg.com/originals/24/fb/4f/24fb4f0142e0b5538c103171f134786c.jpg">
+                <div class="joker-desc">
+                    <h1>Joker</h1>
+                    <hr>
+                    <p>Name:----</p>
+                    <p>Occupation: comedian</p>
+                    <p>Fear: ---</p>
+                    <p>Enemy: Batman</p>
+                    <p>Allies: Harley quin</p>
+                </div>
+            </div>
+
+            <div class="card lex">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnuw8_S0ZgK6ozSETJYKwsw_yp9T-cEbhRew&usqp=CAU">
+                <div class="lex-desc">
+                    <h1>Lex Luthor</h1>
+                    <hr>
+                    <p>Name: Lex Luthor </p>
+                    <p>Occuptaion: scientist </p>
+                    <p>Fear: ---</p>
+                    <p>Enemy: Superman</p>
+                    <p>Allies: Al Bizarro</p>
+                </div>
+            </div>
+
+            <div class="card sinestro">
+                <img src="https://pbs.twimg.com/media/Ee68sS5X0AAmh11.jpg">
+                <div class="sinestro-desc">
+                    <h1>Sinestro</h1>
+                    <hr>
+                    <p>Name:Sinestro </p>
+                    <p>Occuptaion: Anthropologist </p>
+                    <p>Fear: spectrum of green light</p>
+                    <p>Enemy: Green lantern (Hal Jordan)</p>
+                    <p>Allies:Parallax</p>
+                </div>
+            </div>
+
+
+
+    </body>
+
+    </html>

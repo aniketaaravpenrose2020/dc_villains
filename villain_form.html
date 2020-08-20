@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is our Villains Form!</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+    body {
+        margin: 0;
+        background: url('https://seeklogo.net/wp-content/uploads/2016/05/dc-comics-logo-vector-download.jpg') no-repeat fixed center right;
+    }
+    
+    form input,
+    label,
+    p,
+    select,
+    h1 {
+        font-family: 'Piedra', cursive;
+        color: rgb(1, 114, 228);
+    }
+    
+    form input[type='submit'] {
+        padding: 15px;
+        background-color: lawngreen;
+        color: white;
+        border-style: solid;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    form input[type='text'] {
+        padding-left: 3px;
+        border-color: rgb(3, 120, 236);
+    }
+    
+     ::placeholder {
+        color: rgb(3, 120, 236);
+        opacity: 0.6;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    body {
+        padding-left: 150px;
+        border-style: solid;
+        border-color: rgb(3, 120, 236);
+        border-width: 50px;
+    }
+    
+    h1 {
+        padding-right: 88px;
+    }
+</style>
+
+<body>
+    <form action="#">
+        <h1>This is our DC Villains Form! Kindly take some time to rate and support our website!</h1>
+        <label for="Firstname">Firstname</label><br/>
+        <input type="text" id="Firstname" placeholder="Firstname"><br/>
+        <label for="lastname">Lastname</label><br/>
+        <input type="text" id="Lastname" placeholder="Lastname"><br/><br/>
+
+        <label for="Age">Age</label><br><br/>
+        <input type="radio" id="1-12y/o" name="age" value="1-12y/o">
+        <label for="1-12y/o">1-12y/o</label>
+        <input type="radio" id="13-19y/o" name="age" value="13-19y/o">
+        <label for="13-19y/o">13-19y/o</label>
+        <input type="radio" id="20-40y/o" name="age" value="20-40y/o">
+        <label for="20-40y/o">20-40y/o</label><br/>
+        <input type="radio" id="41-60y/o" name="age" value="41-60y/o">
+        <label for="41-60y/o">41-60y/o</label>
+        <input type="radio" id="61-80y/o" name="age" value="61-80y/o">
+        <label for="61-80y/o">61-80y/o</label>
+        <input type="radio" id="81-100y/o" name="age" value="81-100y/o">
+        <label for="81-100y/o">81-100y/o</label><br/><br/>
+
+        <label for="Date of Birth">Date of Birth</label><br/><br/>
+        <input type="date" id="Date of Birth" name="Date of Birth">
+
+        <p>Which villain card did you like most?</p>
+        <select name="Villains">
+            <option value="Joker">Joker</option>
+            <option value="Sinestro">Sinestro</option>
+            <option value="Lex Luthor">Lex Luthor</option>
+            <option value="Captain Cold">Captain Cold</option>
+            <option value="Bane">Bane</option>
+            <option value="Brainiac">Brainiac</option>
+        </select>
+        <p>How much do you rate our website?</p>
+
+        <input type="radio" id="1 Star" name="Rating" value="1 Star">
+        <label for="1 Star">1 Star</label><br>
+        <input type="radio" id="2 Star" name="Rating" value="2 Star">
+        <label for="2 Star">2 Star</label><br>
+        <input type="radio" id="3 Star" name="Rating" value="3 Star">
+        <label for="3 Star">3 Star</label><br>
+        <input type="radio" id="4 Star" name="Rating" value="4 Star">
+        <label for="4 Star">4 Star</label><br>
+        <input type="radio" id="5 Star" name="Rating" value="5 Star">
+        <label for="5 Star">5 Star</label><br/><br/>
+
+        <input type="Submit" onclick="alert('Thank you for your feedback! We will take this into account:)')" value="Submit">
+
+    </form>
+</body>
